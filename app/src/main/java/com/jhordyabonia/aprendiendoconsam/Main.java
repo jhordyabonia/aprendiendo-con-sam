@@ -38,7 +38,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
             }//otras
         };
     public static int LEVEL=0;
-    public static boolean all=false,paused=true;
+    public static boolean all=false,paused=false,display_off=true;
     private MediaPlayer resourcePlayer,music;
     private ObjectAnimator player;
     private ImageView display;
@@ -79,8 +79,10 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
         player.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationRepeat(Animator anim){
-                    onClick(display);
-                    counter-=1;
+                    if (!display_off) {
+                        onClick(display);
+                        counter -= 1;
+                    }
                 }
         });
     }
@@ -97,21 +99,21 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
     {
         music.pause();
         player.end();
+        display_off=true;
         super.onPause();
     }
     @Override
     protected  void onResume()
     {
         super.onResume();
+        display_off=false;
         music.start();
         player.setRepeatCount(counter);
-        if(all)
-            player.start();
-        else paused = false;
-
+        player.start();
     }
     @Override
     public void onClick(View view) {
+
         if(view.getId()==R.id.play) {
             if(!all){
                 startActivity(new Intent(this, Select.class));
@@ -123,6 +125,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
                         .setImageResource(R.drawable.pause);
             }else {
                 paused=true;
+                player.end();
                 ((ImageView)findViewById(R.id.play))
                         .setImageResource(R.drawable.play);
             }
@@ -133,10 +136,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
                     if (++LEVEL >= levels.length)
                         LEVEL = 0;
                     letters = levels[LEVEL];
-                } else {
-                    //startActivity(new Intent(this, Select.class));
-                    //finish();
-                }
+                } else return;
             }
             if (resourcePlayer.isPlaying())
                 resourcePlayer.stop();

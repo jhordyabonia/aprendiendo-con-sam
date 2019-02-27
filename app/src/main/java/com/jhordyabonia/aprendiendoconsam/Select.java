@@ -37,8 +37,8 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
 
         setContentView(R.layout.activity_select);
 
-//        error=MediaPlayer.create(this, R.raw.toc);
-//        error.setVolume(0.9f,0.9f);
+        error=MediaPlayer.create(this, R.raw.toc);
+        error.setVolume(1.1f,1.1f);
 //        error.setOnCompletionListener(this);
 
         music=MediaPlayer.create(this, R.raw.music);
@@ -51,7 +51,7 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
 
         ok=MediaPlayer.create(this, R.raw.ok_again);
         ok.setVolume(1f,1f);
-        //ok.setOnCompletionListener(this);
+        ok.setOnCompletionListener(this);
 
         fail=MediaPlayer.create(this, R.raw.fail_again);
         fail.setVolume(1f,1f);
@@ -73,10 +73,6 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
             i.setOnClickListener(this);
 
         start();
-
-        if(resourcePlayer!=null) {
-            resourcePlayer.start();
-        }
     }
     private int getN_intent(){
         return (4-Main.LEVEL);
@@ -111,6 +107,7 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
         resourcePlayer = MediaPlayer.create(this, last.audio);
         resourcePlayer.setVolume(0.9f,0.9f);
         resourcePlayer.setOnCompletionListener(this);
+        resourcePlayer.start();
         repeat=2;
     }
     @Override
@@ -120,8 +117,11 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
     }
     @Override
     public  void onPause(){
-        if(resourcePlayer.isPlaying()){
-            resourcePlayer.stop();
+
+        if (resourcePlayer != null) {
+            if (resourcePlayer.isPlaying()) {
+                resourcePlayer.stop();
+            }
         }
         music.pause();
         super.onPause();
@@ -130,11 +130,12 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
     public  void onDestroy(){
         music.stop();
 
-        if(resourcePlayer.isPlaying()){
-            resourcePlayer.stop();
+        if (resourcePlayer != null) {
+            if (resourcePlayer.isPlaying()) {
+                resourcePlayer.stop();
+            }
+            resourcePlayer.release();
         }
-
-        resourcePlayer.release();
         if(error!=null)
             error.release();
         win.release();
@@ -143,25 +144,29 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
     }
     @Override
     public void onClick(View view) {
-        if (view.getId()== R.id.letter){
-            if(!resourcePlayer.isPlaying())
-                resourcePlayer.start();
-        }else if(view.getId()== displays.get(id_selected).getId()){
-            if(win.isPlaying())
-                win.stop();
-            win.start();
-            if(--total_ok<1) {
-                big_win.start();
-            }else {
-                ok.start();
-                start();
+        if(!big_win.isPlaying()) {
+            if (view.getId() == R.id.letter) {
+                if (!resourcePlayer.isPlaying())
+                    resourcePlayer.start();
+            } else if (view.getId() == displays.get(id_selected).getId()) {
+                if (win.isPlaying())
+                    win.stop();
+                if (resourcePlayer.isPlaying())
+                    resourcePlayer.stop();
+                win.start();
+                if (--total_ok < 1) {
+                    big_win.start();
+                } else {
+                    ok.start();
+                }
+            } else {
+                if (--n_intent < 1) {
+                    if (resourcePlayer.isPlaying())
+                        resourcePlayer.stop();
+                    n_intent = getN_intent();
+                    fail.start();
+                } else if (error != null) error.start();
             }
-        }else {
-            if(--n_intent<1) {
-                n_intent=getN_intent();
-                fail.start();
-                start();
-            }else if(error!=null) error.start();
         }
     }
 
@@ -171,11 +176,14 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
 
     @Override
     public void onCompletion(MediaPlayer mediaPlayer) {
-        if(0<repeat--) {
-            if (resourcePlayer != null) {
-                resourcePlayer.start();
+        if(mediaPlayer==resourcePlayer) {
+            if (0 < repeat--) {
+                if (resourcePlayer != null) {
+                    resourcePlayer.start();
+                }
             }
+        }else if(mediaPlayer==fail||mediaPlayer==ok){
+            start();
         }
     }
-
 }
