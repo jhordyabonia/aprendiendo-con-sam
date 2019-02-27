@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:background="@drawable/bg3"
+    tools:context=".Board"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TableRow
+                android:id="@+id/play"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingTop="15dp"
+                    app:srcCompat="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textLevel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Ver todo"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="28sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+                <TableRow
+                    android:id="@+id/level0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingTop="15dp"
+                        app:srcCompat="@drawable/play" />
+
+                    <TextView
+                        android:id="@+id/textLevel2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Números"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:textSize="28sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/colorPrimary"/>
+
+                </TableRow>
+
+             <TableRow
+                android:id="@+id/level1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingTop="15dp"
+                    app:srcCompat="@drawable/play" />
+                <TextView
+                    android:id="@+id/textLevel3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vocales..."
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:textSize="28sp"
+                    android:textColor="@color/colorPrimary"/>
+             </TableRow>
+
+            <TableRow
+                android:id="@+id/level2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingTop="15dp"
+                        app:srcCompat="@drawable/play" />
+                <TextView
+                    android:id="@+id/textLevel4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abc: primera parte"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:textSize="28sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/level3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingTop="15dp"
+                    app:srcCompat="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abc: segunda parte"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:textSize="28sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/level4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingTop="15dp"
+                    app:srcCompat="@drawable/play" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abc: tecera parte"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:textSize="27sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
