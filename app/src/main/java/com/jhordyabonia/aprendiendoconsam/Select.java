@@ -37,10 +37,11 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
 
         setContentView(R.layout.activity_select);
 
-        error=MediaPlayer.create(this, R.raw.toc);
-        error.setVolume(1.1f,1.1f);
-//        error.setOnCompletionListener(this);
-
+        error = MediaPlayer.create(this, R.raw.toc);
+        if (error != null){
+            error.setVolume(1.1f, 1.1f);
+            error.setOnCompletionListener(this);
+        }
         music=MediaPlayer.create(this, R.raw.music);
         music.setVolume(0.3f,0.3f);
         //music.setOnCompletionListener(this);

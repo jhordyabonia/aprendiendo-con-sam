@@ -4,7 +4,7 @@
             "outputFile": "/home/jhordy/StudioProjects/Aprendiendo con Sam/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa5d2525765a0b7b57d149d3656d6f2d/res/values-v16/values-v16.xml",
+                    "source": "/home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/08de0b87523ab0bc2b4964fca98a4889/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1f0472028ed59286e225afed6304b8b6/res/values-v16/values-v16.xml",
+                    "source": "/home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d05d6fee9eb8b10e30f394463155b55c/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

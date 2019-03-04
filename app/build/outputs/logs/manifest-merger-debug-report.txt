@@ -1,63 +1,130 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa5d2525765a0b7b57d149d3656d6f2d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b4224cfebf92a51e0f8471c42999f12f/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/349048f832ea95dd13c678a85048b44b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4c134d72959fd5870da61418540852f0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0eb4b29ed3172346c688fcaaef5cfa39/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/97429aedec75390f2fd1f08d1ef2a7cc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/98a66a2c77f48bc3381ad765e768941e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6d1f63f9326def461d8e660820ebbf6e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4753e41fecf5de7fc6723c30482683b7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b23723bd9bb5e33b4f7f2f56f5f7879b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b7cf393639c67a8f433bda4d026e8254/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e64b2ef207cdbf4eec53287facc0553/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3c1505ab5138832f95f4346d597f858f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/676b57194d73c6152b9509d5d57eaa44/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/640693e05017a48953a08c1517301742/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1f0472028ed59286e225afed6304b8b6/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/df05ab00c6c4f11cfd2c00ff2a1f49da/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/98df27ecf8cdde9143553eebdf330332/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/76fe8e66da1baaaf92f3827b121ba9cc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/12b88669979389058ad20df416829661/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/847dee5222614e5163477f6f4a3feb91/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a34e0993276140a395f1043b43b41aff/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1408bce5a702f6f66fea58d80a923799/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/089e413dce8023ae1069d3843cc329ae/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2ae6893696d6cd606835d3db27b6f877/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/344f36ba42ec27b4ea67ba01dbc55169/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e41ba29cb06daafad280b4d5b271949d/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/08de0b87523ab0bc2b4964fca98a4889/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/becc1ad1a27627d943946fbe4434cdc3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-crash:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.0.aar/e87c57751dc1eca78860dd1482db1e68/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/6dfb472717bf8bc047158b969ac6c305/AndroidManifest.xml:2:1-9:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4706143aef226ba44186ed25b3e96539/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/18ca7f1d772ea70726831a73c61e24fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/23b9631146f6d02bdde71fb8d1144a55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c1f61a96adcb2ec5fde68a63690dd6a3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/3b5838ea1ef1b7e36112834c079a0631/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/37492cba6656bb04fa4eb52cc5aac9b3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b2a4cf78a812face5c76f081c43c4e37/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/b2d489d0bbedd5a2458fe640f2d28723/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/254c6b8c6a09c1404de74029dc416c18/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/265e3cbe46b2fd576d7fce7cee2f0926/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ea8af95a1af21442af50ab029a258f2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/aa30f5e73922d14fe53fe89678e9a44b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3df28951181da646484d684650fd3f28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9a3de880144b9a6aafcbdca00aa5c267/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2543759c7e53ef17d571f040f2587b30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/15d3117885221223570939951baf8c19/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a91daf745770642c45dfcca79ee6234b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0a7ebdae586ba9f43676ad5987d12ffa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/508f3fe2545221a58ad06d2673ef775a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/90feff4f0212dbe4cb303c9f9e2dff6f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d05d6fee9eb8b10e30f394463155b55c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b92bff649a74e5c988da31d4736edf3c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3c6737b37f60ffde8ac0932c2ecebc95/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/950d241fc7db9917e4782114c14552fc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56f49f26ab73adc352d82d3db7c6f9e5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/55e0cf38d964c2292e9e716f778dbf48/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/377d5504423a905ad935f71ae38e29c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4fe1f4456566ad2d403788ab5bd3a376/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ec38cf7564bcd971bb98c19e81765b5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a771705e82b27976f9d5f8b606838046/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f2f1f194ddaafc5d68bd1e52c2494af4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ed4f40778b57062ee43f53ee37bbda5b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b4a88b3cd225a51347dbef922cdb822a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/e3e8679b31298678ddda9973bbcbda4c/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/jhordy/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a2d5a9341ef57bf3ab6c69ea57519d1f/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/a08db47d3de60174892a68a66fcccb8d/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/jhordy/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/77cf87e2dbd92d9be42da89437fcc251/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
-		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
-		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:5:5-23:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b4224cfebf92a51e0f8471c42999f12f/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b4224cfebf92a51e0f8471c42999f12f/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1f0472028ed59286e225afed6304b8b6/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1f0472028ed59286e225afed6304b8b6/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/df05ab00c6c4f11cfd2c00ff2a1f49da/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/df05ab00c6c4f11cfd2c00ff2a1f49da/AndroidManifest.xml:22:5-23:19
+ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/becc1ad1a27627d943946fbe4434cdc3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/becc1ad1a27627d943946fbe4434cdc3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-crash:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.0.aar/e87c57751dc1eca78860dd1482db1e68/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-crash:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.0.aar/e87c57751dc1eca78860dd1482db1e68/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/6dfb472717bf8bc047158b969ac6c305/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/6dfb472717bf8bc047158b969ac6c305/AndroidManifest.xml:7:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c1f61a96adcb2ec5fde68a63690dd6a3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c1f61a96adcb2ec5fde68a63690dd6a3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/3b5838ea1ef1b7e36112834c079a0631/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/3b5838ea1ef1b7e36112834c079a0631/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/37492cba6656bb04fa4eb52cc5aac9b3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/37492cba6656bb04fa4eb52cc5aac9b3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b2a4cf78a812face5c76f081c43c4e37/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b2a4cf78a812face5c76f081c43c4e37/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/b2d489d0bbedd5a2458fe640f2d28723/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/b2d489d0bbedd5a2458fe640f2d28723/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/254c6b8c6a09c1404de74029dc416c18/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/254c6b8c6a09c1404de74029dc416c18/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d05d6fee9eb8b10e30f394463155b55c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d05d6fee9eb8b10e30f394463155b55c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b92bff649a74e5c988da31d4736edf3c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b92bff649a74e5c988da31d4736edf3c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b4a88b3cd225a51347dbef922cdb822a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b4a88b3cd225a51347dbef922cdb822a/AndroidManifest.xml:22:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/e3e8679b31298678ddda9973bbcbda4c/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/e3e8679b31298678ddda9973bbcbda4c/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/jhordy/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a2d5a9341ef57bf3ab6c69ea57519d1f/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/jhordy/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a2d5a9341ef57bf3ab6c69ea57519d1f/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/a08db47d3de60174892a68a66fcccb8d/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/a08db47d3de60174892a68a66fcccb8d/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/jhordy/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/77cf87e2dbd92d9be42da89437fcc251/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/jhordy/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/77cf87e2dbd92d9be42da89437fcc251/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1f0472028ed59286e225afed6304b8b6/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d05d6fee9eb8b10e30f394463155b55c/AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
@@ -96,66 +163,144 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
 		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:20:27-74
+meta-data#io.fabric.ApiKey
+ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:23:9-25:72
+	android:value
+		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:25:13-69
+	android:name
+		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:24:13-44
+uses-permission#android.permission.INTERNET
+ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:28:5-67
+MERGED from [com.google.firebase:firebase-crash:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.0.aar/e87c57751dc1eca78860dd1482db1e68/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-crash:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.0.aar/e87c57751dc1eca78860dd1482db1e68/AndroidManifest.xml:22:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/e3e8679b31298678ddda9973bbcbda4c/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/e3e8679b31298678ddda9973bbcbda4c/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/jhordy/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a2d5a9341ef57bf3ab6c69ea57519d1f/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/jhordy/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a2d5a9341ef57bf3ab6c69ea57519d1f/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/a08db47d3de60174892a68a66fcccb8d/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/a08db47d3de60174892a68a66fcccb8d/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/jhordy/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/77cf87e2dbd92d9be42da89437fcc251/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/jhordy/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/77cf87e2dbd92d9be42da89437fcc251/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml:28:22-64
 uses-sdk
 INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa5d2525765a0b7b57d149d3656d6f2d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa5d2525765a0b7b57d149d3656d6f2d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b4224cfebf92a51e0f8471c42999f12f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b4224cfebf92a51e0f8471c42999f12f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/349048f832ea95dd13c678a85048b44b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/349048f832ea95dd13c678a85048b44b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4c134d72959fd5870da61418540852f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4c134d72959fd5870da61418540852f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0eb4b29ed3172346c688fcaaef5cfa39/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0eb4b29ed3172346c688fcaaef5cfa39/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/97429aedec75390f2fd1f08d1ef2a7cc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/97429aedec75390f2fd1f08d1ef2a7cc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/98a66a2c77f48bc3381ad765e768941e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/98a66a2c77f48bc3381ad765e768941e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6d1f63f9326def461d8e660820ebbf6e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6d1f63f9326def461d8e660820ebbf6e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4753e41fecf5de7fc6723c30482683b7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4753e41fecf5de7fc6723c30482683b7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b23723bd9bb5e33b4f7f2f56f5f7879b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b23723bd9bb5e33b4f7f2f56f5f7879b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b7cf393639c67a8f433bda4d026e8254/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b7cf393639c67a8f433bda4d026e8254/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e64b2ef207cdbf4eec53287facc0553/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3e64b2ef207cdbf4eec53287facc0553/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3c1505ab5138832f95f4346d597f858f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3c1505ab5138832f95f4346d597f858f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/676b57194d73c6152b9509d5d57eaa44/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/676b57194d73c6152b9509d5d57eaa44/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/640693e05017a48953a08c1517301742/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/640693e05017a48953a08c1517301742/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1f0472028ed59286e225afed6304b8b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1f0472028ed59286e225afed6304b8b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/df05ab00c6c4f11cfd2c00ff2a1f49da/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/df05ab00c6c4f11cfd2c00ff2a1f49da/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/98df27ecf8cdde9143553eebdf330332/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/98df27ecf8cdde9143553eebdf330332/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/76fe8e66da1baaaf92f3827b121ba9cc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/76fe8e66da1baaaf92f3827b121ba9cc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/12b88669979389058ad20df416829661/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/12b88669979389058ad20df416829661/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/847dee5222614e5163477f6f4a3feb91/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/847dee5222614e5163477f6f4a3feb91/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a34e0993276140a395f1043b43b41aff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a34e0993276140a395f1043b43b41aff/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1408bce5a702f6f66fea58d80a923799/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1408bce5a702f6f66fea58d80a923799/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/089e413dce8023ae1069d3843cc329ae/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/089e413dce8023ae1069d3843cc329ae/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2ae6893696d6cd606835d3db27b6f877/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2ae6893696d6cd606835d3db27b6f877/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/344f36ba42ec27b4ea67ba01dbc55169/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/344f36ba42ec27b4ea67ba01dbc55169/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e41ba29cb06daafad280b4d5b271949d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e41ba29cb06daafad280b4d5b271949d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/08de0b87523ab0bc2b4964fca98a4889/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/08de0b87523ab0bc2b4964fca98a4889/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/becc1ad1a27627d943946fbe4434cdc3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jhordy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/becc1ad1a27627d943946fbe4434cdc3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-crash:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.0.aar/e87c57751dc1eca78860dd1482db1e68/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.0.aar/e87c57751dc1eca78860dd1482db1e68/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/6dfb472717bf8bc047158b969ac6c305/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.0.aar/6dfb472717bf8bc047158b969ac6c305/AndroidManifest.xml:5:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4706143aef226ba44186ed25b3e96539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4706143aef226ba44186ed25b3e96539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/18ca7f1d772ea70726831a73c61e24fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/18ca7f1d772ea70726831a73c61e24fc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/23b9631146f6d02bdde71fb8d1144a55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/23b9631146f6d02bdde71fb8d1144a55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c1f61a96adcb2ec5fde68a63690dd6a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/c1f61a96adcb2ec5fde68a63690dd6a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/3b5838ea1ef1b7e36112834c079a0631/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/3b5838ea1ef1b7e36112834c079a0631/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/37492cba6656bb04fa4eb52cc5aac9b3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/37492cba6656bb04fa4eb52cc5aac9b3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b2a4cf78a812face5c76f081c43c4e37/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/b2a4cf78a812face5c76f081c43c4e37/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/b2d489d0bbedd5a2458fe640f2d28723/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/b2d489d0bbedd5a2458fe640f2d28723/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/254c6b8c6a09c1404de74029dc416c18/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/254c6b8c6a09c1404de74029dc416c18/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/265e3cbe46b2fd576d7fce7cee2f0926/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/265e3cbe46b2fd576d7fce7cee2f0926/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ea8af95a1af21442af50ab029a258f2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ea8af95a1af21442af50ab029a258f2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/aa30f5e73922d14fe53fe89678e9a44b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/aa30f5e73922d14fe53fe89678e9a44b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3df28951181da646484d684650fd3f28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/3df28951181da646484d684650fd3f28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9a3de880144b9a6aafcbdca00aa5c267/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9a3de880144b9a6aafcbdca00aa5c267/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2543759c7e53ef17d571f040f2587b30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2543759c7e53ef17d571f040f2587b30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/15d3117885221223570939951baf8c19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/15d3117885221223570939951baf8c19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a91daf745770642c45dfcca79ee6234b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a91daf745770642c45dfcca79ee6234b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0a7ebdae586ba9f43676ad5987d12ffa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0a7ebdae586ba9f43676ad5987d12ffa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/508f3fe2545221a58ad06d2673ef775a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/508f3fe2545221a58ad06d2673ef775a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/90feff4f0212dbe4cb303c9f9e2dff6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/90feff4f0212dbe4cb303c9f9e2dff6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d05d6fee9eb8b10e30f394463155b55c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/d05d6fee9eb8b10e30f394463155b55c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b92bff649a74e5c988da31d4736edf3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b92bff649a74e5c988da31d4736edf3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3c6737b37f60ffde8ac0932c2ecebc95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3c6737b37f60ffde8ac0932c2ecebc95/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/950d241fc7db9917e4782114c14552fc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/950d241fc7db9917e4782114c14552fc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56f49f26ab73adc352d82d3db7c6f9e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/56f49f26ab73adc352d82d3db7c6f9e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/55e0cf38d964c2292e9e716f778dbf48/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/55e0cf38d964c2292e9e716f778dbf48/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/377d5504423a905ad935f71ae38e29c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/377d5504423a905ad935f71ae38e29c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4fe1f4456566ad2d403788ab5bd3a376/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4fe1f4456566ad2d403788ab5bd3a376/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ec38cf7564bcd971bb98c19e81765b5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ec38cf7564bcd971bb98c19e81765b5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a771705e82b27976f9d5f8b606838046/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a771705e82b27976f9d5f8b606838046/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f2f1f194ddaafc5d68bd1e52c2494af4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f2f1f194ddaafc5d68bd1e52c2494af4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ed4f40778b57062ee43f53ee37bbda5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ed4f40778b57062ee43f53ee37bbda5b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b4a88b3cd225a51347dbef922cdb822a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.4.aar/b4a88b3cd225a51347dbef922cdb822a/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/e3e8679b31298678ddda9973bbcbda4c/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/e3e8679b31298678ddda9973bbcbda4c/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/jhordy/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a2d5a9341ef57bf3ab6c69ea57519d1f/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/jhordy/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a2d5a9341ef57bf3ab6c69ea57519d1f/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/a08db47d3de60174892a68a66fcccb8d/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/jhordy/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/a08db47d3de60174892a68a66fcccb8d/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/jhordy/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/77cf87e2dbd92d9be42da89437fcc251/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/jhordy/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/77cf87e2dbd92d9be42da89437fcc251/AndroidManifest.xml:7:5-43
 INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
@@ -164,3 +309,197 @@ INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/Andro
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 		ADDED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jhordy/StudioProjects/Aprendiendo con Sam/app/src/main/AndroidManifest.xml
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/jhordy/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/6cf59d2eccb05d779e2f95dda408027d/AndroidManifest.xml:13:13-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.0.aar/edbd11a9c249700e7be458f83717acdf/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.0.0.aar/cc237f54d83679780851fbf09c37d391/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.0.aar/1adae0090b9cb79e4cfa9ba077282bd2/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:29:9-63
+permission#com.jhordyabonia.aprendiendoconsam.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:32:22-76
+uses-permission#com.jhordyabonia.aprendiendoconsam.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.jhordyabonia.aprendiendoconsam
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:48:27-58
+category#com.jhordyabonia.aprendiendoconsam
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/7eeb6028561e9f2ed718a2463f5e868b/AndroidManifest.xml:60:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a9670b265ef884e7dbcbc63efa0aa704/AndroidManifest.xml:10:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/bb90e2660d52938f1b14b4181e0fc67f/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/jhordy/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/5125815223f6aed03b0d6b3b6e273735/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/254c6b8c6a09c1404de74029dc416c18/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/254c6b8c6a09c1404de74029dc416c18/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/jhordy/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea37fbfbcd4a0d97cb590cc8ff312968/AndroidManifest.xml:27:13-51
