@@ -81,7 +81,7 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
     private void start(){
 
         Random r= new Random();
-        int t=Main.levels[Main.LEVEL].length-1;
+        int stop=0,x=0,t=Main.levels[Main.LEVEL].length-1;
 
         items.clear();
         Item last=Main.levels[Main.LEVEL][r.nextInt(t)];
@@ -89,6 +89,16 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
             if(!items.contains(last))
                 items.add(last);
             last = Main.levels[Main.LEVEL][r.nextInt(t)];
+            if(stop++>50)
+                break;
+        }
+        last = Main.levels[Main.LEVEL][x];
+        while (items.size()<displays.size()) {
+            if(!items.contains(last))
+                items.add(last);
+            last = Main.levels[Main.LEVEL][x++];
+            if(x>t)
+                break;
         }
 
         for(int i=0;i<items.size();i++)
@@ -114,7 +124,8 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
     @Override
     public  void  onResume(){
         super.onResume();
-        music.start();
+        if(Main.audio)
+            music.start();
     }
     @Override
     public  void onPause(){
@@ -124,7 +135,8 @@ public class Select extends AppCompatActivity implements View.OnClickListener, M
                 resourcePlayer.stop();
             }
         }
-        music.pause();
+        if(Main.audio)
+           music.pause();
         super.onPause();
     }
     @Override

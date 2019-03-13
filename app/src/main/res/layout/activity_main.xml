@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -35,6 +36,17 @@
         android:layout_height="75dp"
         android:layout_gravity="end|bottom|right"
         android:scaleType="centerInside"
-        android:src="@drawable/play"
-        app:srcCompat="@drawable/play" />
+        android:src="@drawable/pause"
+        app:srcCompat="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/audio"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left|start"
+        android:layout_margin="5dp"
+        android:maxWidth="5dp"
+        android:maxHeight="50dp"
+        app:srcCompat="@drawable/no_volume" />
+
 </FrameLayout>

@@ -730,6 +730,7 @@ drawable n3
 drawable n_1
 drawable n_2
 drawable n_3
+drawable no_volume
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -772,6 +773,7 @@ drawable seis3
 drawable siete1
 drawable siete2
 drawable siete3
+drawable start
 drawable t1
 drawable t2
 drawable t3
@@ -789,6 +791,7 @@ drawable uno3
 drawable v1
 drawable v2
 drawable v3
+drawable volume
 drawable w1
 drawable w2
 drawable w3
@@ -834,6 +837,7 @@ id alertTitle
 id all
 id always
 id async
+id audio
 id auto
 id barrier
 id beginning
@@ -1051,6 +1055,7 @@ raw fail_again
 raw g
 raw h
 raw i
+raw intro
 raw j
 raw k
 raw l

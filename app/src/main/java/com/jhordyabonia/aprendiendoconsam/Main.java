@@ -38,7 +38,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
             }//otras
         };
     public static int LEVEL=0;
-    public static boolean all=false,paused=false,display_off=true;
+    public static boolean all=false,paused=false,display_off=true,audio=true;
     private MediaPlayer resourcePlayer,music;
     private ObjectAnimator player;
     private ImageView display;
@@ -62,9 +62,11 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
 
         display=findViewById(R.id.letter);
         if(!all)
-            display.setOnClickListener(this);
+            ((ImageView)findViewById(R.id.play))
+                      .setImageResource(R.drawable.play);
 
         findViewById(R.id.play).setOnClickListener(this);
+        findViewById(R.id.audio).setOnClickListener(this);
 
         resourcePlayer =
                 MediaPlayer.create(this, R.raw.music);
@@ -97,7 +99,8 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected  void onPause()
     {
-        music.pause();
+        if(audio)
+            music.pause();
         player.end();
         display_off=true;
         super.onPause();
@@ -107,13 +110,33 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
     {
         super.onResume();
         display_off=false;
-        music.start();
+
+        ImageView image = findViewById(R.id.audio);
+        if (audio) {
+            music.start();
+            image.setImageResource(R.drawable.no_volume);
+        } else {
+            image.setImageResource(R.drawable.volume);
+        }
         player.setRepeatCount(counter);
         player.start();
     }
     @Override
     public void onClick(View view) {
 
+        if(view.getId()==R.id.audio) {
+            ImageView image = findViewById(R.id.audio);
+            if (music.isPlaying()) {
+                audio=false;
+                music.pause();
+                image.setImageResource(R.drawable.volume);
+            } else {
+                audio=true;
+                music.start();
+                image.setImageResource(R.drawable.no_volume);
+            }
+            return;
+        }
         if(view.getId()==R.id.play) {
             if(!all){
                 startActivity(new Intent(this, Select.class));
